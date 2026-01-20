@@ -1,0 +1,16 @@
+[user]
+name = threadweaver
+email = deep.cat0869@fastmail.com
+[init]
+defaultBranch = main
+[push]
+default = simple
+[pull]
+rebase = true
+[core]
+autocrlf = input
+editor = hx
+[rerere]
+enabled = true
+[submodule]
+recurse = true

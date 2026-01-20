@@ -1,0 +1,17 @@
+theme = "rose_pine"
+
+[editor]
+line-number = "relative"
+
+bufferline = "multiple"
+
+color-modes = true
+
+[editor.statusline]
+left = [ "mode", "version-control", "file-modification-indicator" ]
+center = [ "file-name" ]
+right = [ "spinner", "selections", "position" ]
+separator = "|"
+
+[editor.indent-guides]
+render = true
