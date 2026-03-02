@@ -1,0 +1,14 @@
+// This is just an entrypoint for DMS/zirconium's default configs
+// Please read the niri and DankLinux documentation for more info!
+// https://yalter.github.io/niri/
+// https://danklinux.com/docs/
+include optional=true "dms.kdl"
+include optional=true "zirconium.kdl"
+
+// Write your overrides here! Have fun!
+
+include "dms/outputs.kdl"
+
+include "dms/cursor.kdl"
+
+include "overrides.kdl"
