@@ -1,0 +1,4 @@
+binds {
+	Mod+T hotkey-overlay-title="Open a Terminal" { spawn "flatpak" "run" "app.devsuite.Ptyxis" "--new-window"; }
+	//Mod+T hotkey-overlay-title="Open a Terminal" { spawn-sh "flatpak run app.devsuite.Ptyxis"; }
+}

@@ -1,0 +1,35 @@
+layout {
+    gaps 4
+
+    struts {
+        top 3
+        bottom 3
+        left -1
+        right 3
+    }
+
+    focus-ring {
+        on
+        width 2
+        active-color "#31748f"
+    }
+
+    border {
+        on
+        width 2
+        active-color "#31748f"
+    }
+
+    // Make the tab indicator wider and match the window height,
+    // also put it at the top and within the column.
+    tab-indicator {
+        width 4
+        gap 4
+        gaps-between-tabs 12
+        corner-radius 2
+        length total-proportion=0.8
+        position "left"
+        place-within-column
+        active-color "#ebbcba"
+    }
+}
