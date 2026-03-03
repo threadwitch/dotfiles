@@ -1,0 +1,32 @@
+{
+  "dankKDEConnect": {
+    "enabled": false
+  },
+  "gitmojiLauncher": {
+    "enabled": true
+  },
+  "dankLauncherKeys": {
+    "enabled": true
+  },
+  "dankStickerSearch": {
+    "enabled": true
+  },
+  "dankPomodoroTimer": {
+    "enabled": true
+  },
+  "dankGifSearch": {
+    "enabled": true
+  },
+  "dankBatteryAlerts": {
+    "enabled": true
+  },
+  "niriWindows": {
+    "enabled": true
+  },
+  "emojiLauncher": {
+    "enabled": true
+  },
+  "dankHooks": {
+    "enabled": true
+  }
+}
