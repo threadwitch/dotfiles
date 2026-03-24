@@ -1,7 +1,7 @@
 {{- $email := promptStringOnce . "email" "Email address" -}}
 {{- $github_user := promptStringOnce . "github_user" "GitHub username" -}}
 
-# This checks for the OS and the specific flavor of Linux for easier conditionals.
+{{/* This checks for the OS and the specific flavor of Linux for easier conditionals. */}}
 {{- $osid := .chezmoi.os -}}
 {{- if hasKey .chezmoi.osRelease "id" -}}
 {{-   $osid = printf "%s-%s" .chezmoi.os .chezmoi.osRelease.id -}}
@@ -24,7 +24,7 @@
 {{ if lookPath "hx" -}}
 [edit]
 	command = "hx"
-{{ end -}}
+{{ end }}
 
 [git]
 	autoCommit = true
