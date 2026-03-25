@@ -1,0 +1,18 @@
+input {
+    keyboard {
+        xkb {}
+    }
+
+    touchpad {
+        tap
+        natural-scroll
+        accel-profile "adaptive"
+        click-method "clickfinger"
+    }
+
+    mouse {
+        accel-profile "flat"
+    }
+
+    trackpoint {}
+}
