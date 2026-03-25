@@ -5,3 +5,10 @@ prefer-no-csd
 screenshot-path "~/Pictures/Screenshots/Screenshot from %Y-%m-%d %H-%M-%S.png"
 
 animations {}
+
+cursor {
+	xcursor-theme "BreezeX-RosePine-Linux"
+	xcursor-size 24
+	hide-when-typing
+	hide-after-inactive-ms 1500
+}
