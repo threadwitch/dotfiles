@@ -242,7 +242,7 @@
   "useAutoLocation": false,
   "weatherEnabled": false,
   "networkPreference": "ethernet",
-  "iconTheme": "System Default",
+  "iconTheme": "RoséPine",
   "cursorSettings": {
     "theme": "BreezeX-RosePine-Linux",
     "size": 24,
