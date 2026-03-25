@@ -1,3 +1,5 @@
 include "overrides/binds.kdl"
 include "overrides/layout.kdl"
 include "overrides/window_rules.kdl"
+include "overrides/general.kdl"
+include "overrides/input.kdl"
