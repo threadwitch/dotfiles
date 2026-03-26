@@ -36,6 +36,17 @@ window-rule {
     default-floating-position x=64 y=8 relative-to="top-right"
 }
 
+// Window rule for the MEGAsync tray
+window-rule {
+    match app-id="^MEGAsync$" title="MEGAsync"
+
+    open-floating true
+    default-column-width { fixed 400; }
+    default-window-height { fixed 560; }
+    geometry-corner-radius 12
+    default-floating-position x=64 y=8 relative-to="top-right"
+}
+
 // Window rule for Steam notifications
 window-rule {
     match app-id="steam" title=r#"^notificationtoasts_\d+_desktop$"#
