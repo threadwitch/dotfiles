@@ -1,7 +1,7 @@
 {
   "currentThemeName": "custom",
   "currentThemeCategory": "registry",
-  "customThemeFile": "/var/home/breakerofhalos/.config/DankMaterialShell/themes/rosePine/theme.json",
+  "customThemeFile": "/home/threadweaver/.config/DankMaterialShell/themes/rosePine/theme.json",
   "registryThemeVariants": {
     "rosePine": "rosePine",
     "petrichor": "green",
@@ -9,6 +9,7 @@
     "everforest": "medium"
   },
   "matugenScheme": "scheme-tonal-spot",
+  "matugenContrast": 0,
   "runUserMatugenTemplates": true,
   "matugenTargetMonitor": "",
   "popupTransparency": 1,
@@ -27,7 +28,7 @@
   "mangoLayoutGapsOverride": -1,
   "mangoLayoutRadiusOverride": -1,
   "mangoLayoutBorderSize": -1,
-  "firstDayOfWeek": -1,
+  "firstDayOfWeek": 2,
   "showWeekNumber": false,
   "use24HourClock": true,
   "showSeconds": false,
@@ -242,7 +243,11 @@
   "useAutoLocation": false,
   "weatherEnabled": false,
   "networkPreference": "ethernet",
+<<<<<<< Updated upstream
   "iconTheme": "RoséPine",
+=======
+  "iconTheme": "rose-pine-icons",
+>>>>>>> Stashed changes
   "cursorSettings": {
     "theme": "BreezeX-RosePine-Linux",
     "size": 24,
@@ -410,12 +415,12 @@
   "notificationHistorySaveNormal": true,
   "notificationHistorySaveCritical": true,
   "notificationRules": [],
-  "notificationFocusedMonitor": true,
+  "notificationFocusedMonitor": false,
   "osdAlwaysShowValue": false,
   "osdPosition": 5,
   "osdVolumeEnabled": true,
   "osdMediaVolumeEnabled": true,
-  "osdMediaPlaybackEnabled": true,
+  "osdMediaPlaybackEnabled": false,
   "osdBrightnessEnabled": true,
   "osdIdleInhibitorEnabled": true,
   "osdMicMuteEnabled": true,
