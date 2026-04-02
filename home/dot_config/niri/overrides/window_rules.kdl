@@ -28,8 +28,9 @@ window-rule {
     focus-ring {
         active-color "#f6c177"
         inactive-color "#f6c177"
-    opacity 1.0
     }
+    
+    opacity 1.0
 }
 
 // Window rule for the MEGAsync tray
