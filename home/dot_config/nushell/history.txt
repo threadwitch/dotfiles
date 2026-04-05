@@ -1,0 +1,90 @@
+ls
+mkdir guild-projects
+cd guild-projects/
+mkdir portfolio
+mkdir scratch
+cd portfolio/
+mkdir my-first-project
+sd my-first-project/
+cd my-first-project/
+git init
+cd ~/guild-projects/
+git clone https://github.com/example/guild-learning-path
+git clone git@github.com/example/guild-learning-path
+git clone git@github.com/Navigators-Guild/apprentice-onboarding
+git clone git@github.com:Navigators-Guild/apprentice-onboarding
+cd portfolio/
+ls -a
+ls -a my-first-project/
+git clone git@github.com:threadwitch/guild-portfolio.git
+clear
+ls
+spotify_player
+gsettings get org.gnome.desktop.interface gtk-theme
+gsettings set org.gnome.desktop.interface gtk-theme "rose-pine-gtk"
+gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
+cd ~/.config/gtk-4.0
+ls
+hx settings.ini
+cd ..
+cd gtk-3.0/
+ls
+hx settings.ini
+gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
+gsettings set org.gnome.desktop.interface color-scheme 'prefer-light'
+hx settings.ini
+gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
+hx settings.ini
+btop
+cd ~/.themes
+ls
+cd gtk-3.0/
+cd gtk3
+ls
+y
+mv rose-pine* ../
+ls
+cd ..
+ls
+rm gtk3
+ls gtk3
+rm -r gtk3
+ls
+gsettings set org.gnome.desktop.interface gtk-theme "rose-pine-gtk"
+cd ~/.config/gtk-3.0
+hx settings.ini
+cd ~/.config/nushell/
+ls
+hx config.nu
+exit
+$NU_LIB_DIRS
+cd ~/.config/nushell
+ls
+mkdir scripts
+cd scripts/
+hx y.nu
+config nu
+y
+exit
+y
+config nu
+y
+exit
+y
+dmesg | grep -i -e type=1300 -e type=1400
+sudo dmesg | grep -i -e type=1300 -e type=1400
+journalctl -t setroubleshoot
+sedmodule -DB
+semodule -DB
+sudo semodule -DB
+journalctl -t setroubleshoot
+sudo dmesg | grep -i -e type=1300 -e type=1400
+journalctl -t setroubleshoot
+setenforce 0
+sudo setenforce 0
+getenforce
+sudo setenforce 1
+getenforce
+sudo semodule -B
+y
+btop
